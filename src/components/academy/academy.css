@@ -1,0 +1,9 @@
+.Academy{
+    padding: 0px 40px;
+}
+.Academy .subtitle {
+    margin-top: 5%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}

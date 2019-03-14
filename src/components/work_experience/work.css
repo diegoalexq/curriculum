@@ -1,0 +1,40 @@
+.Work{
+    margin-top: 30px;
+}
+.ListWork_0{
+    padding: 0px 40px;
+}
+.ListWork_1{
+    margin-top: 4%;
+    padding: 0px 40px;
+}
+.ListWork_2{
+    margin-top: 4%;
+    padding: 0px 40px;
+}
+
+.ListWork .Position{
+    font-size: 12px;
+    font-weight: 600;
+    color: #414142;
+    /* padding: 10px 40px; */
+}
+.ListWork .Company{
+    font-size: 12px;
+    /* padding: 0px 40px; */
+}
+.box_1{
+    width: 73%;
+    display: inline-block;
+}
+.box_2{
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    background: #414142;
+    height: 22px;
+    position: relative;
+    bottom: 8px;
+}

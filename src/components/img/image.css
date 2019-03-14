@@ -1,0 +1,14 @@
+.img {
+    margin-top: 11%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+ img {
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+    position: relative;
+}
+/* img:hover {
+    transform: scale(1.5);
+} */

@@ -1,0 +1,29 @@
+.Contact{
+    margin-top: 2%;
+    /* border: 1px solid royalblue; */
+}
+
+.Contact .direction {
+    padding: 10px 40px;
+}
+.Contact .phone {
+    padding: 10px 40px;
+}
+.Contact .mail {
+    padding: 10px 40px;
+}
+.Contact .birthdate {
+    padding: 10px 40px;
+}
+.Contact .dni {
+    padding: 10px 40px;
+}
+.Contact .fas {
+    font-size: 20px;
+}
+.Contact .far {
+    font-size: 21px;
+}
+.Contact span {
+    padding-left: 10px;
+}

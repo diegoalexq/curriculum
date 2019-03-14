@@ -1,0 +1,19 @@
+.Information{
+    margin-top: 2%;
+}
+
+.Information .birthdate {
+    padding: 10px 40px;
+}
+.Information .dni {
+    padding: 10px 40px;
+}
+.Information .fas {
+    font-size: 20px;
+}
+.Information .far {
+    font-size: 21px;
+}
+.Information span {
+    padding-left: 10px;
+}

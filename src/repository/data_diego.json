@@ -1,0 +1,101 @@
+{
+    "personal_information": {
+      "name": "Diego",
+      "last_name": "Quintero",
+      "title_carreer": "Frontend Developer",
+      "contact" : {
+        "direction": "Buenos Aires Esmeralda 625",
+        "phone": "+54 9 11 50104680",
+        "mail": "diegoalexq@gmail.com"
+      }
+    },
+    "bio": {
+      "image": "/assets/images/GGR28449.jpg",
+      "description": "Profesional graduado en ingeniería de sistemas con 6 años de experiencia, orientado al diseño y desarrollo de software, con conocimientos en PHP,CSS3, HTML5, JAVASCRIPT, JQUERY, AJAX, JSON, Bootstrap, Foundation. Patrón de arquitectura de software MVC, sólidos conocimientos en SQL, Stored procedures (ORACLE), MYSQL. Framework de desarrollo (Codeigniter, Laravel ), capaz de adaptarme para trabajar en ambientes GNU/LINUX y WINDOWS. CMS (Wordpress , Joomla). Control de versiones Git."
+    },
+    "academic_information": {
+        "carreer": "Ingeniero de Sistemas",
+        "university": "Universidad Nacional Experimental Politecnica de la Fuerza Armada Nacional (UNEFA)",
+        "fe_desde": "2007",
+        "fe_hasta": "2012"
+    },
+    "work_experience": [
+      {
+        "company": "Zetech",
+        "position": "Frontend Developer",
+        "fe_desde": "05-2017",
+        "fe_hasta": "Actualidad",
+        "description": "Programación: HTML5, PHP 5.6, Postgresql, Smarty, Css, Sass, Javascript, Jquery, Canvas, Vuejs, Axios, Typescript. Frameworks: Slim3, Servicios RESTfull, Yii v1.1.14 Micro-servicios: NodeJs 8.9.4, Versionado: Git Bitbucket/ SVN, Metodologías: SCRUM, Sistema de gestión de tareas JIRA"
+      },
+      {
+        "company": "Cantv",
+        "position": "Especialista de Aplicaciones",
+        "fe_desde": "12-2015",
+        "fe_hasta": "03-2017",
+        "description" : "Especialista en la coordinación de Aplicaciones de desempeño encargado del SMP Y SEDIC. Mantenimiento y Desarrollo de la aplicación SMP Sistema de Mantenimiento de Planta, Mantenimiento y Desarrollo de la aplicación SEDIC Sistema de Evaluación individual Cualitativo, Ejecución, Mantenimiento y desarrollos de procesos PL/SQL. Manejo básico de la herramienta de BI Spoon para la automatización de procesos en la empresa. Monitoreo de Servicios y tareas programadas."
+      },
+      {
+        "company": "Cantv",
+        "position": "Analista de Operaciones",
+        "fe_desde": "04-2012",
+        "fe_hasta": "11-2015",
+        "description" : "Mantenimiento y desarrollo de nuevas aplicaciones realizadas en lenguaje de programación PHP, MVC, jQuery, Css, Javascript, HTML5, Manejo de lenguaje SQL, PL/SQL realización de consultas y reportes. Mantenimiento de bases de datos y creación de nuevas estructuras relacionales. Conocimiento en bases de datos MySQL, Oracle. Mantenimiento y desarrollo en general de la herramienta libro de capacidad de planta y SMDA Sistema de Medición de Desempeño Administrativo."
+      }
+    ],
+    "courses": [
+      {
+        "course_name": "React",
+        "date": "2019",
+        "platform" :"Platzi.com",
+        "icons": "<i className='fab fa-react'></i>"
+      },
+      {
+        "course_name": "Vuejs",
+        "date": "2018",
+        "platform" :"Styde.net",
+        "icons": "<i className='fab fa-vuejs'></i>"
+      },
+      {
+        "course_name": "PHP Intermedio/Avanzado",
+        "date": "2012",
+        "platform" :"Cantv",
+        "icons": "<i className='fab fa-php'></i>"
+      }
+    ],
+    "work_references": [
+      {
+        "name_reference": "",
+        "position" : "",
+        "phone_number": ""
+      },
+      {
+        "name_reference": "",
+        "position" : "",
+        "phone_number": ""
+      }
+    ],
+    "skills": [
+      {
+        "description": "Proactividad"
+      },
+      {
+        "description": "Adaptación"
+      },
+      {
+        "description": "Trabajo en equipo"
+      },
+      {
+        "description": "Autodidacta"
+      }
+    ],
+    "Languages": [
+      {
+        "language": "Español",
+        "levels": "100"
+      },
+      {
+        "language": "Ingles",
+        "levels": "60"
+      }
+    ]
+  }

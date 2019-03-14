@@ -1,0 +1,110 @@
+{
+  "personal_information": {
+    "name": "Jenifer",
+    "last_name": "Diaz",
+    "title_carreer": "Administrativa",
+    "data_info" : {
+      "birthdate" : "Caracas - Venezuela (24años)",
+      "dni": "95.788.137"
+    },
+    "contact" : {
+      "direction": "Buenos Aires - Esmeralda 625",
+      "phone": "+54 9 11 27902539",
+      "mail": "jeniferdicadiaz@gmail.com"
+    }
+  },
+  "bio": {
+    "image": "/assets/images/jenifer.jpg",
+    "description": "Me considero una persona responsable, dinámica y creativa con facilidad de adaptación y capacidad de trabajar en equipo, con iniciativa para resolver problemas de forma eficiente, experiencia  en  el  campo  de  Administración, Mercadeo y Ventas. Con la habilidad de realizar una gran variedad de funciones administrativas como la actualización, registro y almacenamiento de información, archivado, tratamiento de textos."
+  },
+  "academic_information": {
+      "carreer": "Terciario en Administración de Empresas",
+      "university": "Instituto Universitario de Nuevas Profesiones (IUNP Venezuela)",
+      "fe_desde": "2012",
+      "fe_hasta": "2016"
+  },
+  "work_experience": [
+    {
+      "company": "Salones Norte S.R.L (Argentina)  2018-2019",
+      "position": "Encargada/Asistente Administrativo (San Isidro)",
+      "fe_desde": "06-2018",
+      "fe_hasta": "Actualidad",
+      "description": "Atención al público, generación de pagos de sueldos a los empleados y comisiones en general, control de ordenes de pagos a proveedores, control de caja y manejo de efectivo, tareas generales de administración, manejo de personal"
+    },
+    {
+      "company": "SVT Gestión & Talento’s (Venezuela)",
+      "position": "Asistente Administrativo ",
+      "fe_desde": "05-2013",
+      "fe_hasta": "03-2018",
+      "description" : "Encargada de coordinar y agendar reuniones de negocios con nuevos proveedores, manejo de entrevistas, citas y eventos corporativos. funciones de archivar y organizar toda la documentación fisica como digital de toda la organización, atención telefónica y recepción de clientes"
+    }
+  ],
+  "courses": [
+    {
+      "course_name": "B.A Emprende Crecimiento Profesional ",
+      "date": "2018",
+      "platform" :"Mercadolibre",
+      "icons": ""
+    },
+    {
+      "course_name": "Panel visionario, como emprender en el 2017",
+      "date": "2017",
+      "platform" :"A.S.E Caracas",
+      "icons": ""
+    },
+    {
+      "course_name": "S.E.D 1001 Ideas para mi país",
+      "date": "2017",
+      "platform" :"Universidad Metropolitana",
+      "icons": ""
+    },
+    {
+      "course_name": "Curso de Locución",
+      "date": "2017",
+      "platform" :"Locutores del Futuro",
+      "icons": ""
+    },
+    {
+      "course_name": "Curso de Oratoria",
+      "date": "2017",
+      "platform" :"Locutores del Futuro",
+      "icons": ""
+    }
+  ],
+  "work_references": [
+    {
+      "name_reference": "",
+      "position" : "",
+      "phone_number": ""
+    },
+    {
+      "name_reference": "",
+      "position" : "",
+      "phone_number": ""
+    }
+  ],
+  "skills": [
+    {
+      "description": "Proactividad"
+    },
+    {
+      "description": "Adaptación"
+    },
+    {
+      "description": "Trabajo en equipo"
+    },
+    {
+      "description": "Autodidacta"
+    }
+  ],
+  "Languages": [
+    {
+      "language": "Español",
+      "levels": "100"
+    },
+    {
+      "language": "Ingles Básico",
+      "levels": "60"
+    }
+  ]
+}
