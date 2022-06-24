@@ -1,12 +1,13 @@
 {
-  "name": "curriculum_vitae",
+  "name": "curriculum",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "html-react-parser": "^0.6.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "sass": "^1.53.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,57 @@
+.section-b{
+	width: 65%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	color: #414142;
+}
+.section-b .Work .subtitle {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 8px;
+	padding: 0px 40px;
+}
+.section-b .Description{
+    line-height: 20px;
+    text-align: justify;
+}
+.section-b svg  {
+    position: absolute;
+    fill:#2ac38d;
+    stroke:#2ac38d;
+    stroke-width:1
+}
+.section-b .design .box {
+    border: 2px solid #ccc;
+    width: 5px;
+    padding-left: 20px;
+    margin-left: 40px
+}
+.Header {
+    margin-top: 100px;
+}
+.Name {
+    font-size: 23px;
+    color: #142eb1;
+    letter-spacing: 7px;
+    padding-left: 40px;
+}
+.LastName{
+    font-size: 23px;
+    color: #142eb1;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    padding-left: 40px;
+}
+.Carreer {
+    font-size: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #414142;
+    padding-left: 40px;
+}
+
+
+
+

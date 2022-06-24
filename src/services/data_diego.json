@@ -1,0 +1,99 @@
+{
+    "personal_information": {
+      "name": "Diego",
+      "last_name": "Quintero",
+      "title_carreer": "Frontend Developer",
+      "data_info" : {
+        "birthdate" : "04-08-1989",
+        "dni": "95.863.888"
+      },
+      "contact" : {
+        "direction": "Buenos Aires Bogota 374",
+        "phone": "+54 9 11 50104680",
+        "mail": "diegoalexq@gmail.com"
+      }
+    },
+    "bio": {
+      "image": "/assets/images/GGR28449.jpg",
+      "description": "Profesional graduado en ingeniería de sistemas con +7 años de experiencia, orientado al diseño y desarrollo de software, con conocimientos en PHP,CSS3, HTML5, JAVASCRIPT (REACT,VUEJS, NODEJS), JQUERY, AJAX, JSON, Bootstrap. Sólidos conocimientos en SQL, MYSQL. Capaz de adaptarme para trabajar en ambientes GNU/LINUX y WINDOWS. Control de versiones Git."
+    },
+    "academic_information": {
+        "carreer": "Ingeniero de Sistemas",
+        "university": "Universidad Nacional Experimental Politecnica de la Fuerza Armada Nacional (UNEFA)",
+        "fe_desde": "2007",
+        "fe_hasta": "2012"
+    },
+    "work_experience": [
+      {
+        "company": "Mudafy",
+        "position": "Frontend Developer",
+        "fe_desde": "11-2021",
+        "fe_hasta": "Actualidad",
+        "description": "Migración de todo el Marketplace de angular 12 a React - Remix, Desarrollo de servicios en Nodejs usando como framework (Nestjs), Desarrollo bajo CMS Strapi, Sass, HTML5."
+      },
+      {
+        "company": "Zetech - Visma Latam",
+        "position": "Frontend Developer - Scrum Master",
+        "fe_desde": "05-2017",
+        "fe_hasta": "10-2021",
+        "description": "Programación: HTML5, PHP 5.6, Postgresql, Smarty, Css, Sass, Javascript, Jquery, Canvas, Vuejs, Axios, Typescript. Frameworks: Slim3, Servicios RESTfull, Yii v1.1.14 Micro-servicios: NodeJs 8.9.4, Versionado: Git Bitbucket/ SVN, Metodologías: SCRUM, Sistema de gestión de tareas JIRA."
+      },
+      {
+        "company": "Cantv",
+        "position": "Analista/Especialista de Operaciones",
+        "fe_desde": "04-2012",
+        "fe_hasta": "03-2017",
+        "description" : "Mantenimiento y desarrollo de nuevas aplicaciones realizadas en lenguaje de programación PHP, MVC, jQuery, Css, Javascript, HTML5, Manejo de lenguaje SQL, PL/SQL realización de consultas y reportes. Mantenimiento de bases de datos y creación de nuevas estructuras relacionales. Conocimiento en bases de datos MySQL, Oracle. Mantenimiento y desarrollo en general de la herramienta libro de capacidad de planta y SMDA Sistema de Medición de Desempeño Administrativo."
+      }
+    ],
+    "courses": [
+      {
+        "course_name": "NestJs",
+        "date": "2022",
+        "platform" :"Platzi.com",
+        "icons": "<i className='fab fa-js fa-2x'></i>"
+      },
+      {
+        "course_name": "React",
+        "date": "2019",
+        "platform" :"Platzi.com",
+        "icons": "<i className='fab fa-react'></i>"
+      },
+      {
+        "course_name": "Vuejs",
+        "date": "2018",
+        "platform" :"Styde.net",
+        "icons": "<i className='fab fa-vuejs'></i>"
+      },
+      {
+        "course_name": "PHP Intermedio/Avanzado",
+        "date": "2012",
+        "platform" :"Cantv",
+        "icons": "<i className='fab fa-php'></i>"
+      }
+    ],
+    "skills": [
+      {
+        "description": "Proactividad"
+      },
+      {
+        "description": "Adaptación"
+      },
+      {
+        "description": "Trabajo en equipo"
+      },
+      {
+        "description": "Autodidacta"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Español",
+        "levels": "100"
+      },
+      {
+        "language": "Ingles",
+        "levels": "60"
+      }
+    ]
+  }

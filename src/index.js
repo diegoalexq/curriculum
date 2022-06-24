@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Home from './components/home';
-import data from './repository/data.json';
+import Index from './components/index';
+import data from './services/data_diego.json';
 // import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Home data = {data} />, document.getElementById('root'));
+ReactDOM.render(<Index data = {data} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
