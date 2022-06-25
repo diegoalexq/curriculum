@@ -1,16 +1,13 @@
 import React from 'react';
-import './bio.css';
+import Title from '../../generics/subtitle';
 
 export default function Bio({data}) {
 	return (
-		<div className ="bio">
-			<div className ="subtitle">
-				<span> PERFIL </span>
-				<hr></hr>
-			</div>
-			<div className="description">
+		<section className ="bio">
+			<Title title = {'PERFIL'} />
+			<div className="bio__description">
 				{data.description}
 			</div>
-		</div>
+		</section>
 	)
 }

@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './scss/index.scss'
 import Index from './components/index';
-import data from './services/data_diego.json';
+import data from './services/data.json';
 // import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Index data = {data} />, document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  document.getElementById("root")
+);
+
+root.render(
+  <React.StrictMode>
+    <Index data = {data} />
+  </React.StrictMode>
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

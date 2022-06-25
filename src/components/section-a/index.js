@@ -5,7 +5,6 @@ import Contact from './contact';
 import Skills from './skills';
 import Languages from './languages';
 import Information from './information';
-import './section-a.css';
 
 export default function SectionA({ data }) {
   const { bio , personal_information , skills, languages } = data;

@@ -1,16 +1,13 @@
 import React from 'react';
-import './skills.css';
+import Title from '../../generics/subtitle';
 
 export default function Skills ({ data }) {
   const listSkills = data.map((skill , i) =>
-    <div className ="listSkills" key={i} >{skill.description.toUpperCase()}</div>
+    <div className ="skills__name" key={i} >{skill.description.toUpperCase()}</div>
   );
   return (
     <div className ="skills">
-			<div className ="subtitle">
-				<span>HABILIDADES</span>
-				<hr></hr>
-			</div>
+			<Title title={'HABILIDADES'}/>
 			{listSkills}
     </div>
   )

@@ -1,0 +1,17 @@
+.contact{
+  margin-top: 2%;
+	
+	&__direction, &__mail, &__phone  {
+    padding: 10px 40px;
+	}
+	
+	&__text {
+		padding-left: 10px;
+	}
+
+	.fas {
+		font-size: 20px;
+	}
+
+
+}

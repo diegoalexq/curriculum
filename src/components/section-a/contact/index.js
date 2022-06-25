@@ -1,25 +1,22 @@
 import React from 'react';
-import './contact.css';
+import Title from '../../generics/subtitle';
 
 export default function Contact ({ data }) {
 	return (
-		<div className="Contact">
-			<div className ="subtitle">
-				<span>CONTACTO</span>
-				<hr></hr>
-			</div>
-			<div className="direction">
+		<section className="contact">
+			<Title title = {'CONTACTO'}/>
+			<div className="contact__direction">
 				<i className="fas fa-map-marker-alt"></i> 
-				<span> {data.direction} </span>
+				<span className='contact__text'> {data.direction} </span>
 			</div>
-			<div className="phone">
+			<div className="contact__phone">
 				<i className="fas fa-phone"></i>
-				<span> {data.phone} </span>
+				<span className='contact__text'> {data.phone} </span>
 			</div>
-			<div className ="mail">
+			<div className ="contact__mail">
 				<i className="fas fa-envelope"></i>
-				<span> {data.mail} </span>
+				<span className='contact__text'> {data.mail} </span>
 			</div>
-		</div>
+		</section>
   )
 }

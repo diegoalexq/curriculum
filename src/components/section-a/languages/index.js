@@ -1,16 +1,13 @@
 import React from 'react';
-import './languages.css';
+import Title from '../../generics/subtitle';
 
-export default function languages ({ data }) {
+export default function Languages ({ data }) {
 	const listLanguages = data.map((item, i) =>
-		<div className="listLanguages" key={i}>  {item.language}</div>
+		<div className="languages__name" key={i}>  {item.language}</div>
 	);
 	return (
-		<div className ="Languages">
-			<div className ="subtitle">
-					<span>IDIOMAS</span>
-					<hr></hr>
-			</div>
+		<div className ="languages">
+			<Title title ={'IDIOMAS'}/>
 			{listLanguages}
 		</div>
 	)

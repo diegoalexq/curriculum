@@ -1,0 +1,46 @@
+@import 'config.scss';
+
+// GENERICS
+@import '../components/generics/subtitle/title.scss';
+
+// SECTION A
+@import '../components/section-a/img/image.scss';
+@import '../components/section-a/bio/bio.scss';
+@import '../components/section-a/information/information.scss';
+@import '../components/section-a/contact/contact.scss';
+@import '../components/section-a/languages/languages.scss';
+@import '../components/section-a/skills/skills.scss';
+
+
+body{
+  margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+
+  hr{
+    border: 1px solid $hr-color;
+  }
+  .home{
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+    .section-a {
+      width: 35%;
+      height: 100%;
+      color: $main-font-color;
+      background-color: $main-background-color;
+      svg  {
+        position: absolute;
+        fill: $svg-color-a;
+        stroke: $svg-color-a;
+      }
+    }
+  }
+  @media print {
+    .home {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+

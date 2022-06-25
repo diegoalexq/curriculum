@@ -1,20 +1,17 @@
 import React from 'react';
-import './information.css';
+import Title from '../../generics/subtitle';
 
 export default function Information ({ data }) {
   return (
-    <div className="Information">
-      <div className ="subtitle">
-          <span>DATOS PERSONALES</span>
-          <hr></hr>
-      </div>
-      <div className ="birthdate">
+    <div className="information">
+      <Title title={'DATOS PERSONALES'}/>
+      <div className ="information__birthdate">
         <i className="fas fa-calendar-alt"></i>
-        <span> {data.birthdate}</span>
+        <span className='information__text'> {data.birthdate}</span>
       </div>
-      <div className ="dni">
+      <div className ="information__dni">
         <i className="fas fa-id-card"></i>
-        <span> {data.dni} </span>
+        <span className='information__text'> {data.dni} </span>
       </div>
     </div>
   )
