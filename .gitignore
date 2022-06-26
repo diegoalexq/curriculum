@@ -10,3 +10,9 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# VSCode
+.vscode
+
+# PhpStorm
+.idea
