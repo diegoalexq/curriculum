@@ -1,0 +1,37 @@
+.info {
+  margin-top: 100px;
+
+  &__name {
+    font-size: 23px;
+    color: $main-name-color;
+    letter-spacing: 7px;
+    padding-left: 40px;
+  }
+
+  &__lastName {
+    font-size: 23px;
+    color: $main-name-color;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    padding-left: 40px;
+  }
+
+  &__design {
+    &__box {
+      border: 2px solid #ccc;
+      width: 5px;
+      padding-left: 20px;
+      margin-left: 40px
+    }
+  }
+
+  &__carreer {
+    font-size: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #414142;
+    padding-left: 40px;
+  }
+
+}

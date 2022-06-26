@@ -1,0 +1,32 @@
+.courses{
+  margin-top: 3%;
+  .listCourses {
+    margin-top: 1%;
+		padding: 0px 40px;
+
+		&__courseName {
+			&__box_1 {
+				width: 80%;
+				display: inline-block;
+			}
+			&__box_2 {
+				width: 20%;
+				text-align: center;
+				display: inline-block;
+				.fa-react {
+						color: $icon-react-color;
+						font-size: 30px;
+				}
+				.fa-vuejs {
+						font-size: 30px;
+						color: $icon-vue-color;
+				}
+				.fa-php {
+						color: $icon-php-color;
+						font-size: 30px;
+				}
+			}
+		}
+  }
+}
+

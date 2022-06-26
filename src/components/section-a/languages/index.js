@@ -6,9 +6,9 @@ export default function Languages ({ data }) {
 		<div className="languages__name" key={i}>  {item.language}</div>
 	);
 	return (
-		<div className ="languages">
+		<section className ="languages">
 			<Title title ={'IDIOMAS'}/>
 			{listLanguages}
-		</div>
+		</section>
 	)
 }

@@ -11,6 +11,12 @@
 @import '../components/section-a/languages/languages.scss';
 @import '../components/section-a/skills/skills.scss';
 
+//SECTION B
+@import '../components/section-b/info/info.scss';
+@import '../components/section-b/academy/academy.scss';
+@import '../components/section-b/courses/courses.scss';
+@import '../components/section-b/work_experience/work.scss';
+
 
 body{
   margin: 0;
@@ -24,15 +30,24 @@ body{
     display: flex;
     width: 1024px;
     margin: 0 auto;
+    color: $main-font-color;
     .section-a {
       width: 35%;
       height: 100%;
-      color: $main-font-color;
       background-color: $main-background-color;
-      svg  {
+      svg {
         position: absolute;
         fill: $svg-color-a;
         stroke: $svg-color-a;
+      }
+    }
+    .section-b {
+      width: 65%;
+      height: 100%;
+      svg {
+        position: absolute;
+        fill: $svg-color-b;
+        stroke: $svg-color-b;
       }
     }
   }

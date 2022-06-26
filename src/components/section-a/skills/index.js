@@ -6,9 +6,9 @@ export default function Skills ({ data }) {
     <div className ="skills__name" key={i} >{skill.description.toUpperCase()}</div>
   );
   return (
-    <div className ="skills">
+    <section className ="skills">
 			<Title title={'HABILIDADES'}/>
 			{listSkills}
-    </div>
+    </section>
   )
 }

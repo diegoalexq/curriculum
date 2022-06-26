@@ -1,0 +1,36 @@
+.work {
+	margin-top: 30px;
+	.listWork {
+		margin-top: 4%;
+    padding: 0px 40px;
+		&__position {
+			font-weight: 600;
+			color: #414142;
+			&__box_1 {
+				width: 73%;
+				display: inline-block;
+			}
+			&__box_2 {
+				width: 27%;
+				display: inline-block;
+				text-align: center;
+				color: #ffffff;
+				font-weight: 600;
+				background: #414142;
+				height: 22px;
+				position: relative;
+				bottom: 8px;
+			}
+		}
+		&__company {
+			font-size: 12px;
+		}
+		&__description {
+			line-height: 20px;
+		}
+	}
+	.listWork_0 {
+		margin: 0;
+	}
+
+}

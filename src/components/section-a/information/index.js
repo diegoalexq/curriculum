@@ -3,7 +3,7 @@ import Title from '../../generics/subtitle';
 
 export default function Information ({ data }) {
   return (
-    <div className="information">
+    <section className="information">
       <Title title={'DATOS PERSONALES'}/>
       <div className ="information__birthdate">
         <i className="fas fa-calendar-alt"></i>
@@ -13,6 +13,6 @@ export default function Information ({ data }) {
         <i className="fas fa-id-card"></i>
         <span className='information__text'> {data.dni} </span>
       </div>
-    </div>
+    </section>
   )
 }

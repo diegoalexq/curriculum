@@ -13,12 +13,12 @@ export default function SectionA({ data }) {
       <svg height="280" width="600">
         <polygon points="0 240,340 0,0 0"/>
       </svg>
-      <Image></Image>
-      <Bio data ={bio}></Bio>
-      <Information data ={personal_information.data_info}></Information>
-      <Contact data ={personal_information.contact}></Contact>
-      <Skills data ={skills}></Skills>
-      <Languages data ={languages}></Languages>
+      <Image/>
+      <Bio data ={bio}/>
+      <Information data ={personal_information.data_info}/>
+      <Contact data ={personal_information.contact}/>
+      <Skills data ={skills}/>
+      <Languages data ={languages}/>
     </div>
   )
 }

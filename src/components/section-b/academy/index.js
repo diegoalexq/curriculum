@@ -1,24 +1,22 @@
 import React from 'react';
-import './academy.css';
+import Title from '../../generics/subtitle';
 
 export default function Academy ({ data }) {
 	return (
-	<div className ="Academy">
-		<div className ="subtitle">
-			<span>EDUCACIÓN</span>
+	<section className ="academy">
+		<Title title={'EDUCACIÓN'} showHR={false}/>
+		<div className="academy__carreer">
 			<hr></hr>
-		</div>
-		<div className="carreer">
-			<div className="box_1">
+			<div className="academy__carreer__box_1">
 				{data.carreer.toUpperCase()}
 			</div>
-			<div className="box_2">
+			<div className="academy__carreer__box_2">
 				{data.fe_desde} - {data.fe_hasta}
 			</div>
 		</div>
-		<div className="university">
+		<div className="academy__university">
 			{data.university}
 		</div>
-	</div>
+	</section>
 	)
 }
