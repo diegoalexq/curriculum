@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from '../../generics/subtitle';
+import Description from '../../generics/description';
 
 export default function Work({ data }) {
 	const listWorks = data.map((item, i) =>
@@ -16,9 +17,7 @@ export default function Work({ data }) {
 			<div className = "listWork__company">
 				{item.company.toUpperCase()} 
 			</div>
-			<div className = "listWork__description">
-				{item.description}
-			</div>
+			<Description description={item.description}/>
 		</div>
 	)
 	return (

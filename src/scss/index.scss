@@ -2,6 +2,7 @@
 
 // GENERICS
 @import '../components/generics/subtitle/title.scss';
+@import '../components/generics/description/description.scss';
 
 // SECTION A
 @import '../components/section-a/img/image.scss';
@@ -16,6 +17,7 @@
 @import '../components/section-b/academy/academy.scss';
 @import '../components/section-b/courses/courses.scss';
 @import '../components/section-b/work_experience/work.scss';
+
 
 
 body{
@@ -57,5 +59,9 @@ body{
       height: 100%;
     }
   }
+  @media only screen and (max-width: $breakpoint-mobile) {
+    @import 'mobile.scss';
+  }
 }
+
 

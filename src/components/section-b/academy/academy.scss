@@ -1,7 +1,8 @@
 .academy{
-  &__carreer {
-    padding: 0px 40px;
+  padding: 0px 40px;
 
+  &__carreer {
+    padding: 0px;
     &__box_1 {
       width: 73%;
       display: inline-block;
@@ -17,8 +18,5 @@
       position: relative;
       bottom: 8px;
     }
-  }
-  &__university {
-    padding: 0px 40px;
   }
 }
